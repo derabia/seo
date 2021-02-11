@@ -26,10 +26,12 @@ JavaScript Functions Help in SEO
 
 | Function | What it do | How to use | Default output |
 | ------ | ------ | ------ | ------ |
-| `_autoAlt()` | Add Alt Tag To Images Automatically | ` autoAlt();` | page title |
+| `_autoAlt()` | Add Alt Tag To Images Automatically | ` _autoAlt();` | page title |
 
-  you can add alt placeholder as you want
-  ```
-  _autoAlt("TEXT");
-  ```
+###  you can add image source to alt or any text as you want
+  
+| page title | image src | any text |
+| ------ | ------ | ------ | 
+| ` autoAlt();`| `_autoAlt(false)` | ` _autoAlt("TEXT");` |
+
 ---
