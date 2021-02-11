@@ -1,4 +1,3 @@
-![](https://img.shields.io/appveyor/build/derabia/seo) 
 ![](https://img.shields.io/static/v1?label=Derabia&message=SEO&color=<COLOR>) 
 
 # seo.js 
