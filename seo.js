@@ -2,7 +2,7 @@
 
 // Add Alt Tag To Images Automatically Function
 function _autoAlt(altPlaceholder = document.title) {
-	for (i = 0; i < document.getElementsByTagName("img").length; i++) {
+	for (let i = 0; i < document.getElementsByTagName("img").length; i++) {
 		if (
 			typeof document.getElementsByTagName("img")[i].alt == typeof undefined ||
 			document.getElementsByTagName("img")[i].alt == false ||
