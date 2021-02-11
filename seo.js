@@ -1,7 +1,7 @@
 //1. Add Alt Tag To Images Automatically Function
 
 // Add Alt Tag To Images Automatically Function
-function addAltTagToImagesAutomatically(altPlaceholder = document.title) {
+function _autoAlt(altPlaceholder = document.title) {
 	for (i = 0; i < document.getElementsByTagName("img").length; i++) {
 		if (
 			typeof document.getElementsByTagName("img")[i].alt == typeof undefined ||
@@ -13,13 +13,3 @@ function addAltTagToImagesAutomatically(altPlaceholder = document.title) {
 		}
 	}
 }
-
-/*
-#How TO Use
-addAltTagToImagesAutomatically();
-you can add alt placeholder as you want
-addAltTagToImagesAutomatically("ALT-TEXT");
-
-#EXAMPLE
-https://codepen.io/AmrWebDeveloper/pen/abBmQxw
-*/
