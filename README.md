@@ -14,8 +14,10 @@ JavaScript Functions Help in SEO
 
 # Installation
   1. link the file
-  ```sh
+  ```html
   <script src="YOUR/PATH/seo.js"></script>
+or use cdn
+  <script src="https://cdn.jsdelivr.net/gh/derabia/seo/seo.min.js"></script>
   ```
   2. run Function
   ```sh
